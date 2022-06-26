@@ -6,4 +6,4 @@ class Task(models.Model):
     number = models.CharField("Phone number", max_length=15)
     name = models.CharField("Name", max_length=50)
     def __str__(self):
-        return self.title
+        return self.number
